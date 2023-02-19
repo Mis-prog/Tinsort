@@ -23,5 +23,8 @@
     <ClInclude Include="solution1.h">
       <Filter>Исходные файлы</Filter>
     </ClInclude>
+    <ClInclude Include="Sort.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
