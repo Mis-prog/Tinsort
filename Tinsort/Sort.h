@@ -30,12 +30,15 @@ vector<int> Random() {
 	return a;
 }
 
+static int n = 0;
+
 void mergeSort(vector<int>& a, size_t start, size_t end) {
 	if ((end - start) < 2)
 		return;
 	if ((end - start) == 2) {
 		if (a[start] > a[start+1]) {
 			swap(a[start], a[start + 1]);
+			n++;
 		}
 		return;
 	}
