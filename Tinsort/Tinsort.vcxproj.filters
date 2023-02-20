@@ -26,5 +26,8 @@
     <ClInclude Include="Sort.h">
       <Filter>Исходные файлы</Filter>
     </ClInclude>
+    <ClInclude Include="BinPoisk.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

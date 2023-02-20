@@ -3,7 +3,7 @@
 #include <iostream>
 using namespace std;
 
-vector<int>& Sort(vector<int>&a) {
+vector<int>& Sortn2(vector<int>&a) {
 	for (int j = 0; j < a.size(); j++) {
 		for (int i = 0; i < a.size() - j- 1; i++) {
 			if (a[i + 1] < a[i]) {
@@ -15,3 +15,4 @@ vector<int>& Sort(vector<int>&a) {
 	}
 	return a;
 }
+
