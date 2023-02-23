@@ -30,7 +30,6 @@ vector<int> Random() {
 	return a;
 }
 
-static int n = 0;
 
 void mergeSort(vector<int>& a, size_t start, size_t end) {
 	if ((end - start) < 2)
@@ -38,12 +37,11 @@ void mergeSort(vector<int>& a, size_t start, size_t end) {
 	if ((end - start) == 2) {
 		if (a[start] > a[start+1]) {
 			swap(a[start], a[start + 1]);
-			n++;
 		}
 		return;
 	}
 	mergeSort(a, start, start + (end - start) / 2);
-	mergeSort(a, start + (end - start) / 2, end);
+	mergeSort(a,start + (end - start) / 2, end);
 	vector<int> b;
 	size_t b1 = start, e1 =( start + (end - start) / 2), b2 = e1;
 	while (b.size() < end - start) {
@@ -59,5 +57,4 @@ void mergeSort(vector<int>& a, size_t start, size_t end) {
 	for (size_t i = start; i < end; i++) {
 		a[i] = b[i - start];
 	}
-
 }
