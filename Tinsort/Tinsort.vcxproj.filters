@@ -20,13 +20,22 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="solution1.h">
+    <ClInclude Include="Practika.h">
       <Filter>Исходные файлы</Filter>
     </ClInclude>
     <ClInclude Include="Sort.h">
       <Filter>Исходные файлы</Filter>
     </ClInclude>
     <ClInclude Include="BinPoisk.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="A.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="C.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="D.h">
       <Filter>Исходные файлы</Filter>
     </ClInclude>
   </ItemGroup>

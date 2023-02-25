@@ -1,6 +1,10 @@
-#include "solution1.h"
-
+#include "D.h"
 
 int main() {
-	solution1();
+	Sort();
+	return 0;
 }
+/*if (A[i] % 2 == 0) {
+			char a = alphabet[i];
+			lines.append(A[i] / 2, a);
+		}*/

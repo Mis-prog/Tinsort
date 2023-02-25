@@ -131,7 +131,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinPoisk.h" />
-    <ClInclude Include="solution1.h" />
+    <ClInclude Include="C.h" />
+    <ClInclude Include="A.h" />
+    <ClInclude Include="D.h" />
+    <ClInclude Include="Practika.h" />
     <ClInclude Include="Sort.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
